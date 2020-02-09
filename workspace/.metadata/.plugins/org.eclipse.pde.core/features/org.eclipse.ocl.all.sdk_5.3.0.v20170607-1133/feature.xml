@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- contextQualifierLength=14 -->
+<!-- contextQualifierLength=14 -->
+<feature
+      id="org.eclipse.ocl.all.sdk"
+      label="%featureName"
+      version="5.3.0.v20170607-1133"
+      provider-name="%providerName"
+      plugin="org.eclipse.ocl.all">
+
+   <description url="https://projects.eclipse.org/projects/modeling.mdt.ocl">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://www.eclipse.org/modeling/updates"/>
+      <discovery label="%updateSiteName" url="http://www.eclipse.org/modeling/updates"/>
+   </url>
+
+   <includes
+         id="org.eclipse.ocl.core.sdk"
+         version="5.3.0.v20170522-1736"/>
+
+   <includes
+         id="org.eclipse.ocl.doc"
+         version="3.7.0.v20170607-1133"/>
+
+   <includes
+         id="org.eclipse.ocl.doc.source"
+         version="3.7.0.v20170607-1133"/>
+
+   <includes
+         id="org.eclipse.ocl.edit"
+         version="5.1.0.v20170120-1018"/>
+
+   <includes
+         id="org.eclipse.ocl.edit.source"
+         version="5.1.0.v20170120-1018"/>
+
+   <includes
+         id="org.eclipse.ocl.ui"
+         version="2.2.0.v20170120-1018"/>
+
+   <includes
+         id="org.eclipse.ocl.ui.source"
+         version="2.2.0.v20170120-1018"/>
+
+</feature>

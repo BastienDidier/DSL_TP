@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;TP1_Bastien_Didier/My.metahotel&apos; to &apos;My.metahotel.xmi&apos;" description="Rename resource &apos;My.metahotel&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="My.metahotel" name="My.metahotel.xmi" stamp="1576157157481" updateReferences="true"/>
+</session>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- contextQualifierLength=14 -->
+<!-- contextQualifierLength=14 -->
+<feature
+      id="org.eclipse.ocl.ui"
+      label="%featureName"
+      version="2.2.0.v20170120-1018"
+      provider-name="%providerName">
+
+   <description url="https://projects.eclipse.org/projects/modeling.mdt.ocl">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://www.eclipse.org/modeling/updates"/>
+      <discovery label="%updateSiteName" url="http://www.eclipse.org/modeling/updates"/>
+   </url>
+
+   <plugin
+         id="org.eclipse.ocl.common.ui"
+         download-size="0"
+         install-size="0"
+         version="1.3.200.v20160613-1518"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ocl.ui"
+         download-size="0"
+         install-size="0"
+         version="1.2.400.v20160613-1518"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ocl.uml.ui"
+         download-size="0"
+         install-size="0"
+         version="2.0.400.v20160613-1518"
+         unpack="false"/>
+
+</feature>

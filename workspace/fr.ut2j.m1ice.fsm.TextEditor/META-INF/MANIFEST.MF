@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: fr.ut2j.m1ice.fsm.TextEditor
+Bundle-ManifestVersion: 2
+Bundle-Name: fr.ut2j.m1ice.fsm.TextEditor
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: fr.ut2j.m1ice.fsm.TextEditor; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: fr.ut2j.m1ice.fsm,
+ org.eclipse.xtext,
+ org.eclipse.xtext.xbase,
+ org.eclipse.equinox.common;bundle-version="3.5.0",
+ org.eclipse.xtext.xbase.lib;bundle-version="2.14.0",
+ org.antlr.runtime,
+ org.eclipse.xtext.util,
+ org.eclipse.xtend.lib;bundle-version="2.14.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: fr.ut2j.m1ice.fsm.services,
+ fr.ut2j.m1ice.fsm.serializer,
+ fr.ut2j.m1ice.fsm.parser.antlr.internal,
+ fr.ut2j.m1ice.fsm,
+ fr.ut2j.m1ice.fsm.validation,
+ fr.ut2j.m1ice.fsm.generator,
+ fr.ut2j.m1ice.fsm.formatting2,
+ fr.ut2j.m1ice.fsm.parser.antlr,
+ fr.ut2j.m1ice.fsm.scoping
+Import-Package: org.apache.log4j

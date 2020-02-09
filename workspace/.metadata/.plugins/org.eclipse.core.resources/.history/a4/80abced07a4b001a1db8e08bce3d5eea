@@ -1,0 +1,6 @@
+# List of the Java classes that have been aspectized and name of the aspect classes separated by comma
+	fr.ut2j.m1ice.fsm.StateFinal = fsm.aspects.StateFinalAspect
+	fr.ut2j.m1ice.fsm.StateOn = fsm.aspects.StateOnAspect
+	fr.ut2j.m1ice.fsm.StateOff = fsm.aspects.StateOffAspect
+	fr.ut2j.m1ice.fsm.FSM = fsm.aspects.FSMAspect
+	fr.ut2j.m1ice.fsm.State = fsm.aspects.StateAspect
